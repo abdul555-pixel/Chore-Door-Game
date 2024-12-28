@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chore Door!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="assets/logo.png">
+    </div>
+    <div class="instructions">
+        <div class="instruction-heading">
+            <i class="fa-solid fa-star"></i>
+            <p class="instruction-title">Instructions</p>
+            <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="instruction-content">
+            <table>
+                <tr>
+                    <td class="instruction-num">1</td>
+                    <td class="instruction-text">Hiding behind one of these doors is the<br>ChoreBot.</td>
+                </tr>
+                <tr>
+                    <td class="instruction-num">2</td>
+                    <td class="instruction-text">Your mission is to open all of the doors without<br>running into the ChoreBot.</td>
+                </tr>
+                <tr>
+                    <td class="instruction-num">3</td>
+                    <td class="instruction-text">If you manage to avoid the ChoreBot until the<br>very last door, you win!</td>
+                </tr>
+                <tr>
+                    <td class="instruction-num">4</td>
+                    <td class="instruction-text">See if you can score a winning streak!</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="doors">
+        <img src="assets/door.png" class="door" id="door1">
+        <img src="assets/door.png" class="door" id="door2">
+        <img src="assets/door.png" class="door" id="door3">
+    </div>
+    <div class="start">
+        <button class="start-button" id="start-button">
+            Good luck!
+        </button>
+    </div>
+    <div class="scoreboard">
+        <table>
+            <tr class="score-text-container">
+                <td class="score-text">Current streak:</td>
+                <td class="score-text">Best streak:</td>
+            </tr>
+            <tr class="score-row">
+                <td class="score-box" id="score-number"></td>
+                <td class="score-box" id="high-score-number"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+body{
+    width: 100%;
+    background-color: #010165;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #00FFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 160px;
+    height: auto;
+    padding: 2px 0px 3px 0px;
+}
+
+.instructions{
+    margin-top: 50px;
+}
+
+.instruction-heading{
+    color: #00FFFF;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.instructions i{
+    font-size: 7px;
+    margin: 12px 2px;
+}
+
+.instruction-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.instruction-text{
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.instruction-num{
+    padding-right: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    color: #00FFFF;
+}
+
+.instruction-content{
+    display: flex;
+    justify-content: center;
+}
+
+.doors{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 25px;
+}
+
+.door {
+    width: 120px;  /* Set the desired width for the door images */
+    height: 180px; /* Set the desired height for the door images */
+    object-fit: cover; /* Ensures the image covers the set area without distortion */
+    transition: width 0.3s ease, height 0.3s ease; /* Optional: Add a smooth transition for resizing */
+}
+
+
+#door1, #door2, #door3 {
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+    border: 7px solid #8439F6;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.start-button{
+    background-color: #EB6536;
+    border: none;
+    color: #010165;
+    padding: 18px;
+    font-size: 18px;
+}
+
+.score-text{
+    color: #ffffff;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    flex-direction: column; /* Stacks items vertically */
+    margin-top: 30px;
+    width: 100%;
+}
+
+.score-row {
+    display: flex;
+    justify-content: center; /* Center the score boxes */
+    gap: 20px; /* Adds a gap between the score boxes */
+    margin-bottom: 20px;
+}
+
+.score-box {
+    text-align: center;
+    padding: 5px;
+    font-weight: 500;
+    width: 70px;
+    color: #010165;
+    background-color: #00ffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+}
+
+.score-text-container {
+    display: flex;
+    justify-content: center; /* Centers the text labels */
+    gap: 20px; /* Adds a gap between the labels */
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.score-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: small;
+}
