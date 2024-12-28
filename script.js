@@ -26,15 +26,6 @@ const isClicked = (door) => {
     }
 }
 
-// const isBot = (door) => {
-//     if (door.src === jumpDoorPath) {
-//         return true;
-//     }else {
-//         return false;
-//     }
-
-// }
-
 const playDoor = (door) => {
     numOfDoors--;
     if (numOfDoors === 0) {
@@ -126,5 +117,3 @@ const getYourScore = () => {
 }
 
   startRound();
-
-
