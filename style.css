@@ -15,7 +15,7 @@ body{
 }
 
 .logo{
-    width: 11%;
+    width: clamp(10%, calc(100px + 2.5vw), 20%);
     height: auto;
     padding: 2px 0px 3px 0px;
 }
