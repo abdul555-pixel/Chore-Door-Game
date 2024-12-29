@@ -70,9 +70,7 @@ body{
 
 .instruction-content{
     display: flex;
-    justify-content: center;
-    width: calc(100% + 2vw);
-    
+    justify-content: center;    
 }
 
 
