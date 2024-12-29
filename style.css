@@ -106,8 +106,8 @@ body{
     border: none;
     color: #010165;
     padding: calc(1% + 0.5vw);
-    font-size: calc(14px + 0.3vw);
-    width: 17%;
+    font-size: calc(12px + 0.3vw);
+    width: 23%;
     height: auto;
 }
 
